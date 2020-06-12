@@ -8,7 +8,7 @@ class ItemsControllers {
       return {
         id: item.id,
         title: item.title,
-        image_url: `http://192.168.0.35:3333/uploads/${item.image}`,
+        image_url: `https://dvd-server-ecoleta.herokuapp.com/uploads/${item.image}`,
       };
     });
     return response.json(serializedItems);
